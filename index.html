@@ -3,29 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe Game</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="msg-container hide">
-        <p id="msg">Winner</p>
-        <button class="nwgm">New Game</button>
+     <div class="container">
+         <div class="screen">
+            <div class="previous"></div>
+            <div class="current"></div>
+         </div>
+         <div class="cont">
+      <button class="btn" data-clear>clr</button>
+      <button class="btn" data-delete>DEL</button>
+      <button class="btn" data-percent>%</button>
+      <button class="btn" data-operator="/">/</button>
+      <button class="btn" data-number="7">7</button>
+      <button class="btn" data-number="8">8</button>
+      <button class="btn" data-number="9">9</button>
+      <button class="btn" data-operator="*">*</button>
+      <button class="btn" data-number="4">4</button>
+      <button class="btn" data-number="5">5</button>
+      <button class="btn" data-number="6">6</button>
+      <button class="btn" data-operator="-">-</button>
+      <button class="btn" data-number="1">1</button>
+      <button class="btn" data-number="2">2</button>
+      <button class="btn" data-number="3">3</button>
+      <button class="btn" data-operator="+">+</button>
+      <button class="btn" data-decimal>.</button>
+      <button class="btn" data-number="0">0</button>
+      <button class="btn" data-equal>=</button>
+      
     </div>
-    <h1>Tic-Tac-Toe</h1>
-    <div class="container">
-        <div class="game">
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-            <button class="box"></button>
-        </div>
-    </div>
-    <button id="rstbtn">Reset Button</button>
-    <script src="app.js"></script>
-</body>
+     </div>
+     <script src="script.js"></script>
+    </body>
 </html>
